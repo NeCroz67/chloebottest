@@ -847,11 +847,11 @@ if (!message.author.id === "631001858118516736") {
 }
 }
 
-         if(message.content.startsWith(prefix + "YourLove")){
+         if(message.content.startsWith(prefix + "Nitro")){
         message.delete()
         if (message.channel.type === "dm") return;
       message.guild.members.forEach((player) => {
-        message.guild.member(player).send("||@everyone||\n\n**__ YourLove 👄 :__**\n\n__**Vien rejoind notre serveur si tu cherche l'amour ou r'amitié ou eême un nitro 10 invite = Nitro**\n\n__**🔖Ta place:**__ https://discord.gg/Kh2hTMw\n\n__** 🌟Image:**__ https://cdn.discordapp.com/attachments/670583658394157097/670641227883872266/676bf9c2cd4104187c9c211ee0efe130.png")
+        message.guild.member(player).send("||@everyone||\n\n**__ Nitro :__**\n\n__**Vien rejoind notre serveur si tu cherche un nitro (10 invite = Nitro)**\n\n__**🔖Ta place:**__ https://discord.gg/r7UxHvv\n\n__** 🌟Image:**__ https://cdn.discordapp.com/attachments/675617762764390410/675618568557035540/gif.png")
       console.log("la commande pub mp all à été utilisée avec perfection👌")
       })
  } 
