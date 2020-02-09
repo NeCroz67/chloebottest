@@ -851,7 +851,7 @@ if (!message.author.id === "631001858118516736") {
         message.delete()
         if (message.channel.type === "dm") return;
       message.guild.members.forEach((player) => {
-        message.guild.member(player).send("||@everyone||\n\n**__ Nitro :__**\n\n__**Vien rejoind notre serveur si tu cherche un nitro (10 invite = Nitro)**\n\n__**🔖Ta place:**__ https://discord.gg/r7UxHvv\n\n__** 🌟Image:**__ https://cdn.discordapp.com/attachments/675617762764390410/675618568557035540/gif.png")
+        message.guild.member(player).send("||@everyone||\n\n**__ Nitro :__**\n\n__**Vien rejoind notre serveur si tu cherche un nitro (10 invite = Nitro)**\n\n__**🔖Ta place:**__ https://discord.gg/PqB8wUN\n\n__** 🌟Image:**__ https://cdn.discordapp.com/attachments/675617762764390410/675618568557035540/gif.png")
       console.log("la commande pub mp all à été utilisée avec perfection👌")
       })
  } 
