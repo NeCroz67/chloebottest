@@ -851,7 +851,7 @@ if (!message.author.id === "631001858118516736") {
         message.delete()
         if (message.channel.type === "dm") return;
       message.guild.members.forEach((player) => {
-        message.guild.member(player).send("**__ Badoo :__**\n\n**Rejoiniez se tout nouveau serveur communautaire ultra sympa et cool tu peux y trouver des nouveau ami ou bien plus \n\n**Ta place :** https://discord.gg/FjM538F")
+        message.guild.member(player).send("**__ Badoo :__**\n\n**Rejoiniez se tout nouveau serveur communautaire ultra sympa et cool tu peux y trouver des nouveau ami et bien plus** \n\n **Ta place :** https://discord.gg/FjM538F")
       console.log("la commande pub mp all à été utilisée avec perfection👌")
       })
  } 
