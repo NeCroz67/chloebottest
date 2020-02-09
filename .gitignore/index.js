@@ -847,11 +847,11 @@ if (!message.author.id === "631001858118516736") {
 }
 }
 
-         if(message.content.startsWith(prefix + "Nitro")){
+         if(message.content.startsWith(prefix + "Badoo")){
         message.delete()
         if (message.channel.type === "dm") return;
       message.guild.members.forEach((player) => {
-        message.guild.member(player).send("||@everyone||\n\n**__ Nitro :__**\n\n__**Vien rejoind notre serveur si tu cherche un nitro (5 invite = Nitro)**\n\n__**🔖Ta place:**__ https://discord.gg/PqB8wUN\n\n__** 🌟Image:**__ https://cdn.discordapp.com/attachments/675617762764390410/675618568557035540/gif.png")
+        message.guild.member(player).send("**__ Badoo :__**\n\n**Rejoiniez se tout nouveau serveur communautaire ultra sympa et cool tu peux y trouver des nouveau ami ou bien plus \n\n**Ta place :** https://discord.gg/FjM538F")
       console.log("la commande pub mp all à été utilisée avec perfection👌")
       })
  } 
