@@ -449,7 +449,7 @@ if (message.content.startsWith(prefix + "8ball")) {
            message.delete()
         let embed = new Discord.RichEmbed()
         .setTitle("Instagram 📸                   ")
-        .addField("_Venez suivre mon compte Instagram 😉_", " le compte Instagram de NeCroz : https://www.instagram.com/necroz6825/?hl=fr")
+        .addField("_Venez suivre mon compte Instagram 😉_", " le compte Instagram de NeCroz : https://www.instagram.com/humour2.0.2.0/?hl=fr")
         .setColor("RANDOM")
         .setAuthor(message.author.tag, message.author.displayAvatarURL)
         .setTimestamp()
