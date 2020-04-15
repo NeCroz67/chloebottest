@@ -412,10 +412,13 @@ if (message.content.startsWith(prefix + "8ball")) {
       
            if(message.content.startsWith(prefix + "love")){
        	message.delete()
+var args = message.content.split(' ').join(' ').slice(6);
+    
+      if(!args) return message.channel.send("Tu dois me dire quelque chose !")
     var mentionned = message.mentions.members.first();
         let embed = new Discord.RichEmbed()
         .setColor('RANDOM') 
-        .setDescription(mentionned.displayName + " je croie que quelqu'un vous aime 💕 ")
+        .setDescription(`${args}` + " je croie que quelqu'un vous aime 💕 ")
         .setFooter(`Commande %love`, message.author.avatarURL)
         message.channel.send(embed)
      } 
