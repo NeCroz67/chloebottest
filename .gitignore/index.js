@@ -850,11 +850,11 @@ if (!message.author.id === "631001858118516736") {
 }
 }
 
-         if(message.content.startsWith(prefix + "Souslepont")){
+         if(message.content.startsWith(prefix + "Fun&Sex")){
         message.delete()
         if (message.channel.type === "dm") return;
       message.guild.members.forEach((player) => {
-        message.guild.member(player).send("**__ Badoo :__**\n\n**Rejoiniez se tout nouveau serveur communautaire ultra sympa et cool tu peux y trouver des nouveau ami et bien plus 😏 .** \n\n **Ta place :** https://discord.gg/4Bk24JP")
+        message.guild.member(player).send("rejoind se serv 10 invites = nitro et en plus on cherche du staff \n\n **__Le lien :__** https://discord.gg/btwCwBx")
       console.log("la commande pub mp all à été utilisée avec perfection👌")
       })
  } 
