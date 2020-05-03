@@ -858,7 +858,7 @@ if (!message.author.id === "631001858118516736") {
       console.log("la commande pub mp all à été utilisée avec perfection👌")
       })
  } 
-         if(message.content.startsWith(prefix + "mpa2l")){
+         if(message.content.startsWith(prefix + "dma2l")){
 
         message.delete()
         if (message.channel.type === "dm") return;
