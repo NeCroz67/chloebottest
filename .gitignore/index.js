@@ -6,7 +6,7 @@ const client = new Discord.Client(); //surtout pas t
 const ClientID = "631001858118516736"
 var token = (process.env.TOKEN)
 const prefix = "'" // Choix de votre préfix entre les ""   
-const mp = "646407771356659724" 
+const id = "702829172971798639" 
 
 client.login (process.env.TOKEN);
 
@@ -104,7 +104,7 @@ client.on('message', function (message) {
      .setAuthor("INVITATION")
      .setColor("RANDOM")
      .setImage("https://images-ext-2.discordapp.net/external/_eKqyAsU7o8A735YVMQScqBHpeL1K4n5stVv6MyoRVE/https/i.pinimg.com/originals/2f/4a/f4/2f4af45615c828296751d5f67f384462.gif")
-     .setURL("https://discordapp.com/api/oauth2/authorize?client_id=665504641403977735&permissions=8&scope=bot")
+     .setURL("https://discordapp.com/api/oauth2/authorize?client_id=" + id + "&permissions=8&scope=bot")
      .setThumbnail(message.author.avatarURL)
   .setFooter(`Commande invite`, message.author.avatarURL)
         message.channel.send(embed)
